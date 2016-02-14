@@ -1,0 +1,19 @@
+{
+	"name": "perfect/framework",
+	"description": "This is a simple PHP Framework by Perfect PHP.",
+	"authors": [
+		{
+			"name": "Yuya Ishikawa",
+			"email": "yashikawa7@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.8"
+	},
+	"autoload": {
+		"psr-4": {"Perfect\\": "src/Perfect"}
+	}
+}
